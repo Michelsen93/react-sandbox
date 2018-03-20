@@ -1,0 +1,44 @@
+[class^="btn-"] {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 60%;
+  height: 30px;
+  max-width: 250px;
+  margin: 1rem auto;
+  text-transform: uppercase;
+  border: 1px solid currentColor;
+}
+
+a {
+  text-decoration: none;
+  line-height: 30px;
+  color: black;
+}
+
+.btn-6 {
+  color: #32b98d;
+}
+.btn-6 span {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: #086849;
+  -webkit-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.btn-6:hover {
+  color: #c3ebde;
+}
+.btn-6:hover span {
+  width: 225%;
+  height: 562.5px;
+}
+.btn-6:active {
+  background-color: #0ead79;
+}
